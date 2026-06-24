@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: green;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-size: 1rem;
+
+  width: 70vw;
+}
+
+p {
+  font-weight: thin;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  /* line-height: 200px;
+  word-spacing: 20px;
+  letter-spacing: 30px; */
+  text-align: left;
+}
+
+/* em rem vw vh px fr */
