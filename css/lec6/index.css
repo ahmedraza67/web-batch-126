@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  /* grid-template-rows: repeat(3, 50px); */
+  /* grid-template:
+    200px 200px 200px,
+    repeat(20, 100px); */
+  /* grid-template-areas: "first first first" "sidebar content1 content1" "second second second"; */
+  /* align-items: center;
+  align-content: center;
+  justify-content: center; */
+  /* place-content: center; */
+  /* gap: 20px; */
+
+  border: solid;
+}
+
+.parent div {
+  /* width: 50px; */
+  /* height: 50px; */
+  border: solid;
+}
+
+/* .three {
+  grid-area: first;
+}
+
+.two {
+  grid-area: second;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content1;
+} */
+
+.oneDiv {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.two {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.three {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.content1 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
