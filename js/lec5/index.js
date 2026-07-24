@@ -20,7 +20,9 @@ console.log(lName.trim().repeat(5));
 console.log(fName.replace("ytrty", ""));
 
 console.log(fName.split(""));
-console.log(department.split("",10));
+console.log(department.split("", 10));
+
+console.log(department.includes("forma"));
 
 // if (fName.length < 8 || fName.length > 14) {
 //   console.log("FName length must be greater the 8 and and less then 14");
